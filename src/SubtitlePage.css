@@ -1,0 +1,63 @@
+.subtitlePage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif; /* Default font */
+
+    &__heading{
+        font-family: "Pacifico", cursive; 
+    }
+  }
+  
+  .subtitlePage h2 {
+    font-family: "Pacifico", cursive;
+        color: #333;
+    font-family: 'Poppins', sans-serif; /* Heading font */
+    margin-bottom: 20px;
+  }
+  
+  .subtitlePage form {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    max-width: 400px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Add a subtle shadow */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners for the form */
+    background: white; /* Background color for the form */
+  }
+  
+  .subtitlePage form div {
+    margin-bottom: 15px;
+  }
+  
+  .subtitlePage form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .subtitlePage form input,
+  .subtitlePage form select {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #f9f9f9; /* Slightly different background for inputs */
+  }
+  
+  .subtitlePage form button {
+    padding: 10px 15px;
+    background-color: #71b1f5;
+    color: rgb(217, 227, 248);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  .subtitlePage form button:hover {
+    background-color: #5981ac;
+  }
+  
